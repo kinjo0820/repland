@@ -49,7 +49,7 @@ return [
             'password' => env('DB_PASSWORD', 'r/7DbGlNu+Y5'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => env('DB_CHARSET', 'utf8mb4'),
-            'collation' => env('DB_COLLATION', 'utf8mb4_0900_ai_ci'),
+            'collation' => env('DB_COLLATION', 'uca1400_ai_ci'),
             'prefix' => '',
             'prefix_indexes' => true,
             'strict' => true,
