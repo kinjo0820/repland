@@ -74,9 +74,12 @@
               </form>
             </div>
             
-            <h3 class="mt-3 pb-4 border-b border-slate-300">
-              #{{ $post->reptiles->name }}
-            </h3>
+            @if($post->reptiles->name !== null)
+                <h3 class="mt-3 pb-4 border-b border-slate-300">
+                    #{{ $post->reptiles->name }}
+                </h3>
+            @endif
+
 
             <div class="flex mt-4 gap-4 items-center justify-end">
                 @if($post->is_liked_by_auth_user())
