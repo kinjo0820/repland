@@ -55,8 +55,8 @@
             </a>
 
             <a href="/reptiles" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
-                <i class="fa-regular fa-chess-king"></i>
-                <span class="-mr-1 font-medium">人気の爬虫類</span>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="-mr-1 font-medium">カテゴリー</span>
             </a>
             {{-- <a href="/reptiles" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
                 <i class="fa-solid fa-calendar-days"></i>

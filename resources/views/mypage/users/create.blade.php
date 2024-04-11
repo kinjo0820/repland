@@ -33,6 +33,9 @@
                                 <img id="previewImage" src="/images/admin/noimage.jpg" data-noimage="/images/admin/noimage.jpg" alt="" class="rounded-full shadow-md w-32 h-32 object-cover cursor-pointer">
                             </div>
                         </label>
+                        @error('image')
+                        <p class="text-red-400">{{ $message }}</p>
+                        @enderror
                     </div>
 
         

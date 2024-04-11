@@ -35,7 +35,7 @@
 
 
 <!-- component -->
-<div class="mx-auto mt-5 w-4/5" style="max-width: 800px;">
+{{-- <div class="mx-auto mt-5 w-4/5" style="max-width: 800px;">
   <div class="flex flex-col items-center">
       <h2 class="text-xl text-gray-800 mb-2">育て方のポイント</h2>
   </div>
@@ -80,7 +80,7 @@
         </details>
     </div>
   </div>
-</div>
+</div> --}}
 
 
 
