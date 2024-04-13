@@ -70,10 +70,10 @@
                             <button type="submit" class="py-2 px-3 text-xs text-white font-semibold bg-indigo-500 rounded-md">投稿する</button>
                         </div> --}}
                         
-                        <div class="relative flex  flex-col  justify-center py-3">
+                        <div class="flex  flex-col  justify-center py-3">
                             <button type="submit"  class="bg-gradient-to-b mx-auto text-blue-500 font-semibold from-slate-50 to-blue-100 w-44 py-3 rounded-2xl shadow-blue-400 shadow-md hover border-b border-blue-200 hover:shadow-sm transition-all duration-500">投稿</button>
                         </div>
-                        <a href="/" class="relative flex  flex-col  justify-center py-3">
+                        <a href="/" class="flex  flex-col  justify-center py-3">
                             <button class="bg-slate-200 mx-auto text-black font-semibold  w-44 py-3 rounded-2xl shadow-black shadow-sm hover border-b border-black hover:shadow-sm transition-all duration-500">戻る</button>
                         </a>
                     </div>

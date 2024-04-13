@@ -26,11 +26,10 @@
         <input name="body" value="{{ $validated['body'] }}" type="hidden">
     </div>
 
-    <div class="relative flex  flex-col  justify-center overflow-hidden py-12 text-center text-xs">
+    <div class="flex  flex-col  justify-center py-3">
         <p>送信される際は、<a href="#" class="text-blue-600 hover:underline">個人情報保護方針</a>に同意したものとします。</p>
-        <button type="submit" name="action" value="submit" class="mt-5 bg-gradient-to-b mx-auto text-blue-500 font-semibold from-slate-50 to-blue-100 px-10 py-3 rounded-2xl shadow-blue-400 shadow-md hover border-b border-blue-200 hover:shadow-sm transition-all duration-500">入力内容確認</button>
+        <button type="submit"  class="bg-gradient-to-b mx-auto text-blue-500 font-semibold from-slate-50 to-blue-100 w-44 py-3 rounded-2xl shadow-blue-400 shadow-md hover border-b border-blue-200 hover:shadow-sm transition-all duration-500">送信</button>
     </div>
-
 </form>
 </section>
   

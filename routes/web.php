@@ -18,12 +18,11 @@ use Illuminate\Support\Facades\Route;
 
 // ここからユーザー画面 //
 // トップページ
-Route::get('/',[TopController::class, 'index'])->name('index')->middleware('auth');
+Route::get('/',[TopController::class, 'index'])->name('index');
 
 // 人気の爬虫類
 Route::get('/reptiles',[ReptileController::class, 'index'])->name('reptiles.index')->middleware('auth');
 Route::get('/reptiles/{id}',[ReptileController::class, 'show'])->name('reptiles.show')->middleware('auth');
-
 
 //マイページ
 Route::get('/user/{id}',[UserController::class, 'show'])->name('mypage.users.index')->middleware('auth');

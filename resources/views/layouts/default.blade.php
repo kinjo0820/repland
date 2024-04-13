@@ -19,14 +19,15 @@
           
             <!-- メニューアイコン -->
             <button id="menuBtn" class="md:hidden">
-                <i class="fas fa-bars text-cyan-500 text-lg "></i>
+                <i class="fas fa-bars text-green-600 text-lg "></i>
             </button>
 
             <!-- Logo -->
-            <div class="ml-1">
-                <a href="/"><h1 class="text-4xl m-4 font-mono">Repland</h1></a>
+            <div class="ml-2 mt-2 w-40">
+                <a href="/"><img src="{{ asset('images/top/logo.jpg') }}" alt=""></a>
             </div>
 
+             {{-- <a href="/"><h1 class="text-4xl m-4 font-mono">Repland</h1></a> --}}
             
             <div class="space-x-4">
                
@@ -113,8 +114,8 @@
      <footer class="lg:ml-64 lg:pl-4 lg:flex lg:flex-col lg:w-75% relative pt-8 pb-6 ">
         <div class="container mx-auto px-4">
      
-            <div class="w-full lg:w-6/12 px-4">
-                <h4 class="text-4xl fonat-semibold text-blueGray-700">Repland</h4>
+            <div class="w-full lg:w-6/12">
+                <img class="w-40" src="{{ asset('images/top/logo.jpg') }}" alt="">
                 <h5 class="text-sm mt-2 mb-2 text-blueGray-600">
                     爬虫類マニアのためのプラットフォーム
                 </h5>

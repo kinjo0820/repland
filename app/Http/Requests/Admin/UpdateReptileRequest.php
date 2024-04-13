@@ -35,7 +35,6 @@ class UpdateReptileRequest extends FormRequest
             'length' => ['required', 'max:255'],
             'lifespan' => ['required', 'max:255'],
             'habitat' => ['required', 'max:255'],
-
         ];
     }
 }

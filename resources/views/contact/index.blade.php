@@ -25,9 +25,9 @@
             <p class="text-red-400">{{ $message }}</p>
             @enderror
         </div>
-        <div class="relative flex  flex-col  justify-center overflow-hidden sm:py-12 text-center text-xs">
-            <button class="bg-gradient-to-b mx-auto text-blue-500 font-semibold from-slate-50 to-blue-100 px-10 py-3 rounded-2xl shadow-blue-400 shadow-md hover border-b border-blue-200 hover:shadow-sm transition-all duration-500">入力内容確認</button>
-        </div>
+        <div class="flex  flex-col  justify-center py-3">
+          <button type="submit"  class="bg-gradient-to-b mx-auto text-blue-500 font-semibold from-slate-50 to-blue-100 w-44 py-3 rounded-2xl shadow-blue-400 shadow-md hover border-b border-blue-200 hover:shadow-sm transition-all duration-500">入力内容確認</button>
+      </div>
       </form>
     </div>
   </div>
