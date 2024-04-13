@@ -7,7 +7,7 @@
     <meta name="description" content="爬虫類専用SNS Repland | あなたのお気に入りの爬虫類が見つかる">
 
     {{-- OGP --}}
-    <meta property="og:url" content=" ページの URL" />
+    <meta property="og:url" content="https://repland.net/" />
     <meta property="og:type" content="TOP" />
     <meta property="og:title" content="爬虫類専用SNS Repland " />
     <meta property="og:description" content="爬虫類専用SNS Repland | あなたのお気に入りの爬虫類が見つかる" />
