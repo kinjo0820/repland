@@ -2,17 +2,17 @@
 @section('title', 'Repland | 投稿')
 
 @section('content')
-<div class="py-10 bg-opacity-10 text-center" style="">
+<div class="py-  text-center" style="">
     <div class="container">
 
-        <div class="flex justify-center items-center h-screen">
+        <div class="flex justify-center items-center ">
             <form action="{{ route('posts.store') }}" method="post" enctype="multipart/form-data" class="w-full max-w-lg bg-white shadow-md rounded px-8 pt-6 pb-8">
                 @csrf
         
-                <div class="mb-8">
+                <div class="">
                     <!-- エラーメッセージ -->
                     @if ($errors->any())
-                    <div class="mb-8 py-4 px-6 border border-red-300 bg-red-50 rounded">
+                    <div class="mb-4 py-4 px-6 border border-red-300 bg-red-50 rounded">
                         <ul>
                             @foreach ($errors->all() as $error)
                             <li class="text-red-400">{{ $error }}</li>
@@ -26,7 +26,7 @@
                         <input id="user_id" class="block w-full px-4 py-3 mb-2 text-sm bg-white border rounded" type="text" name="user_id" value="{{ \Auth::user()->id }}">
                     </div> --}}
                    
-                    <div class="mb-6 mt-20 md:mt-0 text-center">
+                    <div class="mb-6 mt-10 md:mt-0 text-center">
                         <label class="block text-sm font-medium mb-2 cursor-pointer" for="image">
                             <!-- 非表示のファイル選択フィールド -->
                             <input id="image" class="hidden" type="file" accept='image/*' name="image">
