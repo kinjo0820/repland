@@ -22,7 +22,7 @@
                   </div>
     
                   <div class="mt-4 items-center flex justify-between">
-                    <button class="px-4 py-1 text-white font-light tracking-wider bg-green-900 hover:bg-gray-800 rounded"
+                    <button class="px-4 py-1 text-white font-light tracking-wider bg-green-900  rounded"
                       type="submit">ログイン</button>
                     <a class="inline-block right-0 align-baseline font-bold text-sm text-500 text-black hover:text-red-400"
                       href="/mypage/register">新規アカウントを作成</a>
