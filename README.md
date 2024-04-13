@@ -1,6 +1,6 @@
 
 <div class="">
-    <a href="/"><img src="{{ asset('images/top/logo.svg') }}" alt=""></a>
+    <a href="/"><img src="public/images/top/logo.jpg" alt=""></a>
 </div>
 
 <table border="1">
