@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'Repland')
+@section('title', 'Repland | オススメ')
 
 @section('content')
 

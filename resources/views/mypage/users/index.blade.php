@@ -1,4 +1,6 @@
 @extends('layouts.default')
+@section('title', 'Repland')
+
 
 @section('content')
 

@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', '人気の爬虫類')
+@section('title', 'Repland | カテゴリー')
 
 @section('content')
 

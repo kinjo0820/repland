@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'お問い合わせ完了')
+@section('title', 'Repland | お問い合わせ完了')
 
 @section('content')
 <section class="pb-24 text-center">

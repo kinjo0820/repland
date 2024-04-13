@@ -1,4 +1,5 @@
 @extends('layouts.default')
+@section('title', 'Repland | 投稿')
 
 @section('content')
 <div class="py-10 bg-opacity-10 text-center" style="">

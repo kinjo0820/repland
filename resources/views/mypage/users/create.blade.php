@@ -1,4 +1,6 @@
 @extends('layouts.default')
+@section('title', 'Repland | アカウント作成')
+
 
 @section('content')
 <section class="py-8 ">
