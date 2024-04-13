@@ -1,8 +1,5 @@
 
-
-
 <h2>爬虫類専用SNS Repland</2>
-
 
 <table border="1">
     <tr>
@@ -22,11 +19,6 @@
       <td>Amazon Lightsail MariaDB</td>
     </tr>
   </table>
-
-
-
-
-
 
 
 
