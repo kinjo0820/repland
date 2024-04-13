@@ -62,7 +62,7 @@
                     <div class="pb-4 border-b">
                         
                         <div class="flex  flex-col  justify-center py-3">
-                            <button type="submit"  class=" mx-auto text-white bg-green-700 font-semibold  w-44 py-3 rounded-2xl  border-b">投稿する</button>
+                            <button type="submit"  class=" mx-auto text-white bg-gray-600 font-semibold  w-44 py-3 rounded-2xl  border-b">投稿する</button>
                         </div>
                         <a href="/" class="flex  flex-col  justify-center py-3">
                             <button class="bg-slate-200 mx-auto text-black font-semibold  w-44 py-3 rounded-2xl  shadow-sm hover border-b border-black ">戻る</button>
