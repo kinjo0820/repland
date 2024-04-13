@@ -26,12 +26,12 @@
                         <input id="user_id" class="block w-full px-4 py-3 mb-2 text-sm bg-white border rounded" type="text" name="user_id" value="{{ \Auth::user()->id }}">
                     </div> --}}
                    
-                    <div class="mb-6 text-center">
+                    <div class="mb-6 mt-20 md:mt-0 text-center">
                         <label class="block text-sm font-medium mb-2 cursor-pointer" for="image">
                             <!-- 非表示のファイル選択フィールド -->
                             <input id="image" class="hidden" type="file" accept='image/*' name="image">
                             <div class="flex justify-center items-center">
-                                <img id="previewImage" src="/images/admin/noimage.jpg" data-noimage="/images/admin/noimage.jpg" alt="" class="rounded shadow-md w-64 h-64 object-cover cursor-pointer">
+                                <img id="previewImage" src="/images/post/no_image.jpg" data-noimage="/images/post/no_image.jpg" alt="" class="rounded shadow-md w-80 h-80 object-cover cursor-pointer">
                             </div>
                         </label>
                     </div>
@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="mb-6 w-2/3 mx-auto">
-                        <select id="reptiles" name="reptiles" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <select id="reptiles" name="reptiles" class=" border  text-sm rounded-lg  p-2">
                             <option value="" disabled selected>#ハッシュタグ</option>
                             @foreach ($reptiles as $reptile)
                                 <option value="{{ $reptile->id }}">{{ $reptile->name }}</option>
@@ -60,21 +60,12 @@
                     </div>
 
                     <div class="pb-4 border-b">
-                        {{-- <div class="ml-4">
-                            <a href="/" class="flex items-center">
-                                <p class="py-2 px-4 text-xs text-white font-semibold bg-black rounded-md">戻る</p>
-                            </a>
-                        </div>
-
-                        <div class="mr-4">
-                            <button type="submit" class="py-2 px-3 text-xs text-white font-semibold bg-indigo-500 rounded-md">投稿する</button>
-                        </div> --}}
                         
                         <div class="flex  flex-col  justify-center py-3">
-                            <button type="submit"  class="bg-gradient-to-b mx-auto text-blue-500 font-semibold from-slate-50 to-blue-100 w-44 py-3 rounded-2xl shadow-blue-400 shadow-md hover border-b border-blue-200 hover:shadow-sm transition-all duration-500">投稿</button>
+                            <button type="submit"  class=" mx-auto text-white bg-green-800 font-semibold  w-44 py-3 rounded-2xl  border-b">投稿する</button>
                         </div>
                         <a href="/" class="flex  flex-col  justify-center py-3">
-                            <button class="bg-slate-200 mx-auto text-black font-semibold  w-44 py-3 rounded-2xl shadow-black shadow-sm hover border-b border-black hover:shadow-sm transition-all duration-500">戻る</button>
+                            <button class="bg-slate-200 mx-auto text-black font-semibold  w-44 py-3 rounded-2xl  shadow-sm hover border-b border-black ">戻る</button>
                         </a>
                     </div>
                 </div>

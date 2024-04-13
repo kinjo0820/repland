@@ -7,10 +7,10 @@
 
 <!-- ▼▼▼▼爬虫類一覧表示▼▼▼▼　-->
 <div id="reptiles" class="px-3 py-10 bg-opacity-10 " style="">
-    <h2 class="font-medium text-center text-xl mb-4">人気の爬虫類</h2>
-    <div class="grid grid-cols-2 md:lg:xl:grid-cols-6 group">
+    <h2 class="font-medium text-center text-xl mb-10">カテゴリー</h2>
+    <div class="grid grid-cols-2 md:lg:xl:grid-cols-5 group">
       @foreach ($reptiles as $reptile)
-        <div class="p-3 flex flex-col items-center text-center group   cursor-pointer">
+        <div class="p-3 flex flex-col items-center text-center group  cursor-pointer mb-1">
             <a href="{{ route('reptiles.show',$reptile->id)}}">
                 <img class="h-24 w-24 rounded-full text-white shadow-lg shadow-green-900 object-cover" src="{{ asset('storage/'. $reptile->image) }}" alt="">
             </a>
