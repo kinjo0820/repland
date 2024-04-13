@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="爬虫類専用SNS Repland | あなたのお気に入りの爬虫類が見つかる">
 
+    <meta property="og:type" content="TOP" />
+    <meta property="og:title" content="Repland" />
+    <meta property="og:description" content="あなたのお気に入りの爬虫類が見つかる" />
+    <meta property="og:site_name" content="爬虫類専用SNS Repland" />
+    <meta property="og:url" content="https://repland.net/" />
+    <meta property="og:image" content="public/images/top/logo.jpg" alt="Repland" />
+<!-- Twitterシェア時の表示形式指定 -->
+<meta name="twitter:card" content="summary_large_image" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
     @vite('resources/css/app.css')
