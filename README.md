@@ -1,13 +1,7 @@
 
-爬虫類専用SNS Repland 
-
-使用言語	   php javascript html css
-フレームワーク	laravel TailwindCSS blade
-開発環境	   Docker mysql
-本番環境       Amazon Lightsail MariaDB
 
 
-
+<h2>爬虫類専用SNS Repland</2>
 
 
 <table border="1">

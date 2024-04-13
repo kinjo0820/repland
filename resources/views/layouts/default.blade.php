@@ -26,7 +26,6 @@
             </div>
              {{-- <a href="/"><h1 class="text-4xl m-4 font-mono">Repland</h1></a> --}}
             <div class="space-x-4">
-               
                     <button>
                         {{-- <i class="fas fa-user text-cyan-500 text-lg"></i> --}}
                         <div class="flex">
@@ -44,7 +43,7 @@
         </div>
     </nav>
    
-    <div id="sideNav" class="lg:block hidden  w-64 h-screen fixed rounded-none border-none mt-20 bg-white">
+    <div id="sideNav" class="lg:block hidden  w-64 h-screen fixed rounded-none border-none mt-16 bg-white">
         <div class="p-4 space-y-4">
             <a href="/post/create" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
                 <i class="fa-solid fa-camera-retro"></i>

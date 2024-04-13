@@ -20,8 +20,8 @@
             </button>
 
             <!-- Logo -->
-            <div class="ml-1 flex justify-center items-center">
-                <h1 class="text-4xl m-4 font-mono">Repland</h1>
+            <div class="flex justify-center items-center ">
+                <a href="/" class="ml-2 mt-2 w-40"><img src="{{ asset('images/top/logo.svg') }}" alt=""></a>
                 <p class="">管理画面</p>
                 {{-- <img src="" alt="logo" class="h-20 w-28"> --}}
             </div>
