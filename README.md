@@ -1,5 +1,7 @@
 
-<h2>爬虫類専用SNS Repland</2>
+<div class="">
+    <a href="/"><img src="{{ asset('images/top/logo.svg') }}" alt=""></a>
+</div>
 
 <table border="1">
     <tr>
@@ -19,8 +21,6 @@
       <td>Amazon Lightsail MariaDB</td>
     </tr>
   </table>
-
-
 
 
 
