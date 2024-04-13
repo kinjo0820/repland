@@ -16,19 +16,15 @@
 <body class="">
     <nav class="bg-white  border-gray-300 fixed w-full block pb-2  ">
         <div class="flex justify-between items-center px-4">
-          
             <!-- メニューアイコン -->
             <button id="menuBtn" class="md:hidden">
                 <i class="fas fa-bars text-green-600 text-lg "></i>
             </button>
-
             <!-- Logo -->
             <div class="ml-2 mt-2 w-40">
-                <a href="/"><img src="{{ asset('images/top/logo.jpg') }}" alt=""></a>
+                <a href="/"><img src="{{ asset('images/top/logo.svg') }}" alt=""></a>
             </div>
-
              {{-- <a href="/"><h1 class="text-4xl m-4 font-mono">Repland</h1></a> --}}
-            
             <div class="space-x-4">
                
                     <button>
@@ -115,11 +111,10 @@
         <div class="container mx-auto px-4">
      
             <div class="w-full lg:w-6/12">
-                <img class="w-40" src="{{ asset('images/top/logo.jpg') }}" alt="">
+                <img class="w-40" src="{{ asset('images/top/logo.svg') }}" alt="">
                 <h5 class="text-sm mt-2 mb-2 text-blueGray-600">
                     爬虫類マニアのためのプラットフォーム
                 </h5>
-            
             </div>
 
            

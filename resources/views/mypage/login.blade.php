@@ -7,7 +7,7 @@
     <div class="container mx-auto h-full flex flex-1 justify-center items-center">
         <div class="w-full max-w-lg">
           <div class="leading-loose">
-            <img src="{{ asset('images/top/logo.jpg') }}" alt="">
+            <img src="{{ asset('images/top/logo.svg') }}" alt="">
             <form action="{{ route('mypage.login') }}" method="POST" class="p-10 bg-white bg-opacity-25 rounded ">
                 @csrf
                 <p class="text-black text-center text-lg font-bold">ログイン</p>

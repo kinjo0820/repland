@@ -10,7 +10,24 @@
 
 
 
-
+<table border="1">
+    <tr>
+      <th>使用言語</th>
+      <th>php javascript html css</th>
+    </tr>
+    <tr>
+      <td>フレームワーク</td>
+      <td>laravel TailwindCSS blade</td>
+    </tr>
+    <tr>
+      <td>開発環境</td>
+      <td>Docker mysql</td>
+    </tr>
+    <tr>
+      <td>本番環境</td>
+      <td>Amazon Lightsail MariaDB</td>
+    </tr>
+  </table>
 
 
 
