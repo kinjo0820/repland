@@ -45,8 +45,21 @@
                         <textarea id="body" class="block w-full px-4 py-3 mb-2 text-sm bg-white border rounded" name="body" rows="5">{{ old('body',$reptile->body) }}</textarea>
                     </div>
 
+                    <div class="mb-6">
+                        <label class="block text-sm font-medium mb-2" for="habitat">生息地</label>
+                        <input id="habitat" class="block w-full px-4 py-3 mb-2 text-sm bg-white border rounded" type="text" name="habitat" value="{{ old('habitat',$reptile->habitat) }}">
+                    </div>
 
-                    {{-- 戻る・削除ボタン --}}
+                    <div class="mb-6">
+                        <label class="block text-sm font-medium mb-2" for="length">全長</label>
+                        <input id="length" class="block w-full px-4 py-3 mb-2 text-sm bg-white border rounded" type="text" name="length" value="{{ old('length',$reptile->length) }}">
+                    </div>
+
+                    <div class="mb-6">
+                        <label class="block text-sm font-medium mb-2" for="lifespan">寿命</label>
+                        <input id="lifespan" class="block w-full px-4 py-3 mb-2 text-sm bg-white border rounded" type="text" name="lifespan" value="{{ old('lifespan',$reptile->lifespan) }}">
+                    </div>
+                  
                     
                     
                 </div>

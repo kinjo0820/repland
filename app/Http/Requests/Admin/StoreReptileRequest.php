@@ -31,7 +31,10 @@ class StoreReptileRequest extends FormRequest
                 'mimes:jpeg,jpg,png', // 形式はjpegかpng
                
             ],
-            'body' => ['required', 'max:20000'],
+            'habitat' => ['required', 'max:255'],
+            'length' => ['required', 'max:255'],
+            'lifespan' => ['required', 'max:255'],
+            'body' => ['required', 'max:400'],
         ];
     }
 

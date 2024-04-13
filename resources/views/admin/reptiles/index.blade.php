@@ -26,9 +26,7 @@
   
     </div>
   
-    <div class="mt-8 text-center">
-        <a href="#" class="inline-block text-xs font-semibold leading-none rounded py-4 text-black border-solid bg-white border-black border-2 px-16 hover:text-white hover:bg-black">もっと見る</a>
-    </div>
+   
   
 </div>
   <!-- ▲▲▲▲爬虫類一覧表示▲▲▲　-->

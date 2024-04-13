@@ -11,23 +11,22 @@
     </div>
     <div class="pl-8 pt-4">
       <div class="uppercase tracking-wide  text-green-900 font-semibold">{{ $reptile->name }}</div>
-      <p class="mt-2 text-gray-500 text-sm">平たく太い体型と喉を真っ黒にして膨らませる姿がアゴ髭みたいに見えることから、フトアゴヒゲトカゲと名付けられ、フトアゴの愛称で呼ばれているんだ。
-        見た目のいかつさとは違い、トゲはゴムのような触感性格は温厚で人に馴れやすく仕草もかわいいんだよ。また砂漠を生き抜いているのでとても丈夫なのも魅力のひとつだよ！</p>
+      <p class="mt-2 text-gray-500 text-sm">{{ $reptile->body }}</p>
 
       <div class="mt-2">
         <span class="text-gray-400">生息地</span>
-        <p class="mt-1 text-gray-900 text-sm">オーストラリア中央部～南東部の乾燥地帯
+        <p class="mt-1 text-gray-900 text-sm">{{ $reptile->habitat }}
         </p>
     
       </div>
       <div class="mt-2">
         <span class="text-gray-400">全長</span>
-        <p class="mt-1 text-gray-900 text-sm">{{ $reptile->length }}44~55cm</p>
+        <p class="mt-1 text-gray-900 text-sm">{{ $reptile->length }}</p>
       
       </div>
       <div class="mt-2">
         <span class="text-gray-400">寿命</span>
-        <p class="mt-1 text-gray-900 text-sm">{{ $reptile->lifespan }}8~10年</p>
+        <p class="mt-1 text-gray-900 text-sm">{{ $reptile->lifespan }}</p>
       </div>
     </div>
   </div>

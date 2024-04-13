@@ -9,7 +9,7 @@ class Reptile extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name','image','body'];
+    protected $fillable = ['name','image','body','habitat','length','lifespan'];
 
     public function posts()
     {
