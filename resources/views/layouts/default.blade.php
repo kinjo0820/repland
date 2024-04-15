@@ -34,7 +34,7 @@
                 <a href="/"><img src="{{ asset('images/top/logo.svg') }}" alt=""></a>
             </div>
             
-            <div class="space-x-4">
+            {{-- <div class="space-x-4">
                     <button>
                         <div class="flex">
                             @if (Auth::check()) <!-- ログインしているかどうかを確認 -->
@@ -47,7 +47,7 @@
                         </div>
                         
                     </button>
-            </div>
+            </div> --}}
         </div>
     </nav>
    
