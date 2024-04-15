@@ -108,7 +108,7 @@
         </div>
     </div>
 
-    <main class="lg:ml-64  lg:flex lg:flex-col lg:w-75% pt-20">
+    <main class="lg:ml-64  lg:flex lg:flex-col lg:w-75% ">
         @yield('content')
     </main>
 
