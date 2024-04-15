@@ -23,7 +23,7 @@
 </head>
 
 <body class="">
-    <nav class="bg-white  border-gray-300  w-full block pb-2 fixed">
+    <nav class="bg-white  border-gray-300  w-full block pb-2 ">
         <div class="flex justify-between items-center px-4">
             <!-- メニューアイコン -->
             <button id="menuBtn" class="md:hidden">
@@ -51,7 +51,7 @@
         </div>
     </nav>
    
-    <div id="sideNav" class="lg:block hidden  w-64  fixed rounded-none border-none  bg-white pb-80  mt-16 pt-10">
+    <div id="sideNav" class="lg:block hidden  w-64  fixed rounded-none border-none  bg-white pb-80">
         <div class="p-4 space-y-4 pl-6">
 
             <a href="/post/create" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
