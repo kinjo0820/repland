@@ -23,7 +23,7 @@
 </head>
 
 <body class="">
-    <nav class="bg-white  border-gray-300 fixed w-full block pb-2  ">
+    <nav class="bg-white  border-gray-300  w-full block pb-2 fixed">
         <div class="flex justify-between items-center px-4">
             <!-- メニューアイコン -->
             <button id="menuBtn" class="md:hidden">
@@ -33,10 +33,10 @@
             <div class="ml-2 mt-2 w-40">
                 <a href="/"><img src="{{ asset('images/top/logo.svg') }}" alt=""></a>
             </div>
-             {{-- <a href="/"><h1 class="text-4xl m-4 font-mono">Repland</h1></a> --}}
+            
             <div class="space-x-4">
                     <button>
-                        {{-- <i class="fas fa-user text-cyan-500 text-lg"></i> --}}
+                      
                         <div class="flex">
                             @if (Auth::check()) <!-- ログインしているかどうかを確認 -->
                             <a href="{{ route('mypage.users.index', Auth::user()->id) }}">
@@ -52,8 +52,9 @@
         </div>
     </nav>
    
-    <div id="sideNav" class="lg:block hidden  w-64 h-screen fixed rounded-none border-none mt-16 bg-white">
-        <div class="p-4 space-y-4">
+    <div id="sideNav" class="lg:block hidden  w-64  fixed rounded-none border-none  bg-white pb-80  mt-16 pt-10">
+        <div class="p-4 space-y-4 pl-6">
+
             <a href="/post/create" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
                 <i class="fa-solid fa-camera-retro"></i>
                 <span>投稿する</span>
@@ -67,19 +68,13 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <span class="-mr-1 font-medium">カテゴリー</span>
             </a>
-            {{-- <a href="/reptiles" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
-                <i class="fa-solid fa-calendar-days"></i>
-                <span>イベント情報</span>
-            </a> --}}
+          
             <a href="https://repland.official.ec/" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
                 <i class="fa-solid fa-cart-shopping"></i>
                 <span>限定グッズ</span>
             </a>
 
-            {{-- <a href="https://twitter.com/champloo_life" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
-                <i class="fa-solid fa-x"></i>
-                <span>エックス</span>
-            </a> --}}
+           
             <a href="/contact" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
                 <i class="fa-solid fa-envelope"></i>
                 <span>お問い合せ</span>
@@ -90,16 +85,9 @@
                 <span>プロフィール</span>
             </a>
             @endif
-            {{-- <a href="" class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group">
-                <i class="fa-duotone fa-house"></i>
-                <span>ケージレイアウト</span>
-            </a> --}}
-            
-            {{-- <a href="/" class="px-4 py-3 flex items-center space-x-4 rounded-md text-gray-500 group">
-                <i class="fa-solid fa-calendar-days"></i>
-                <span>イベント情報</span>
-            </a> --}}
 
+            {{-- ログインの可否で表示を変える --}}
+            @if(Auth::check())
             <form action="{{ route('mypage.logout') }}" method="post" class="py-3  flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
                 @csrf
                 <button>
@@ -107,6 +95,17 @@
                     <span>ログアウト</span>
                 </button>
             </form>
+             
+            @else
+            <form action="{{ route('mypage.logout') }}" method="post" class="py-3  flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
+                @csrf
+                <button>
+                    <i class="fas fa-sign-out-alt mr-2"></i>
+                    <span>ログイン</span>
+                </button>
+            </form>
+                  
+            @endif
         </div>
     </div>
 
@@ -140,13 +139,8 @@
         </div>
     </footer>
      <!-- ▲▲▲▲共通フッター▲▲▲　-->
-    
-    
-
-
    <!-- Script  -->
     <script>
-
         // メニューアイコンをクリックしたときにサイドナビゲーションを表示／非表示する
         const menuBtn = document.getElementById('menuBtn');
         const sideNav = document.getElementById('sideNav');
