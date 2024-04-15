@@ -34,7 +34,7 @@
                 <a href="/"><img src="{{ asset('images/top/logo.svg') }}" alt=""></a>
             </div>
             
-            {{-- <div class="space-x-4">
+            <div class="space-x-4">
                     <button>
                         <div class="flex">
                             @if (Auth::check()) <!-- ログインしているかどうかを確認 -->
@@ -47,11 +47,11 @@
                         </div>
                         
                     </button>
-            </div> --}}
+            </div>
         </div>
     </nav>
    
-    <div id="sideNav" class="lg:block hidden  w-64  fixed rounded-none border-none  bg-white pb-80  mt-40 pt-10">
+    <div id="sideNav" class="lg:block hidden  w-64  fixed rounded-none border-none  bg-white pb-80  mt-16 pt-10">
         <div class="p-4 space-y-4 pl-6">
 
             <a href="/post/create" aria-label="dashboard" class="relative px-4 py-3 flex items-center space-x-4 rounded-lg hover:text-white hover:bg-gradient-to-r hover:from-sky-600 hover:to-cyan-400">
