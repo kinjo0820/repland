@@ -8,7 +8,7 @@
 <!-- ▼▼▼▼爬虫類一覧表示▼▼▼▼　-->
 <div id="reptiles" class="px-3 py-10 bg-opacity-10 " style="">
     <h2 class="font-medium text-center text-xl mb-10">カテゴリー</h2>
-    <div class="grid grid-cols-2 md:lg:xl:grid-cols-5 group">
+    <div class="grid grid-cols-2 md:lg:xl:grid-cols-6 group">
       @foreach ($reptiles as $reptile)
         <div class="p-3 flex flex-col items-center text-center group  cursor-pointer mb-1">
             <a href="{{ route('reptiles.show',$reptile->id)}}">
