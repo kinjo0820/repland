@@ -43,9 +43,9 @@
         @endforeach
       </div>
     </div>
-    <div class="mt-8 mb-8 text-center">
+    {{-- <div class="mt-8 mb-8 text-center">
       <a href="#" class="inline-block text-xs font-semibold leading-none rounded py-4 text-black border-solid bg-white border-black border-2 px-16 hover:text-white hover:bg-black">もっと見る</a>
-    </div>
+    </div> --}}
   </div>
 </div>
 
@@ -57,7 +57,7 @@
 
 <!-- ▼▼▼▼商品一覧画面▼▼▼▼　-->
 
-<div class="min-h-screen flex-col justify-center overflow-hidden">
+<div class="min-h-screen flex-col justify-center overflow-hidden mt-3">
   <div class="min-h-28 ">
     <div class="max-w-screen-lg mx-auto">
       <h2 class="p-6 font-medium text-center text-xl">人気の商品</h2>
@@ -120,9 +120,9 @@
     </a>
       </div>
 
-      <div class="mt-8 mb-8 text-center">
+      {{-- <div class="mt-8 mb-8 text-center">
         <a href="#" class="inline-block text-xs font-semibold leading-none rounded py-4 text-black border-solid bg-white border-black border-2 px-16 hover:text-white hover:bg-black">もっと見る</a>
-    </div>
+      </div> --}}
     </div>
   </div>
 </div>
